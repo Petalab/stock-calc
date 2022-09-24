@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+<!-- www.check-domains.com sitemap generator -->
+  <url>
+    <loc>https://petalab.github.io/stock-calc/</loc>
+    <lastmod>2022-09-24T04:33:09+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0000</priority>
+  </url>
+</urlset>

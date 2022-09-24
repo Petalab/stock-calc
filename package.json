@@ -7,7 +7,7 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d out",
     "predeploy": "npm run build"
   },
   "homepage": "https://petalab.github.io/stock-calc/",

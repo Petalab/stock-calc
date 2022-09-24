@@ -7,11 +7,11 @@ const Home = () => {
     <>
       <MetaHead />
       <main>
-        <AppTitle>stock-calc</AppTitle>
+        <AppTitle>평단가 계산기</AppTitle>
         <MainDescription>
-          주식/코인 <Strong>물타기 계산기</Strong>입니다.
+          주식/코인 <Strong>평단가 계산기</Strong>입니다.
           <br />
-          보유하고 있는 주식/코인의 평단가, 수량을 입력하고 물 탈 주식/코인의 평단가, 수량을 입력해주세요.
+          보유하고 있는 주식/코인의 평단가, 수량을 입력하고 물타기/불타기를 해보세요.
           <br />
           자동으로 최종 평단가가 계산됩니다.
         </MainDescription>
@@ -22,7 +22,7 @@ const Home = () => {
 };
 
 const AppTitle = styled.h1`
-  margin: 1rem;
+  margin: 2rem;
   font-size: 2.2rem;
   font-weight: 600;
   text-align: center;

@@ -1,15 +1,19 @@
 import Calculator from "components/home/Calculator";
 import MetaHead from "components/common/MetaHead";
 import styled from "styled-components";
+import Logo from "../components/common/Logo";
 
 const Home = () => {
   return (
     <>
       <MetaHead />
       <main>
-        <AppTitle>
-          <TitleStrong>워터독</TitleStrong> 평단가 계산기
-        </AppTitle>
+        <AppTitleWrapper>
+          <Logo />
+          <h1>
+            <TitleStrong>워터독</TitleStrong> 평단가 계산기
+          </h1>
+        </AppTitleWrapper>
         <MainDescription>
           물불 안가리고 타세요. 주식/코인 <Strong>평단가 계산기</Strong>입니다.
           <br />
@@ -23,7 +27,11 @@ const Home = () => {
   );
 };
 
-const AppTitle = styled.h1`
+const AppTitleWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 4px;
   margin: 2rem;
   font-size: 2.2rem;
   font-weight: 600;

@@ -1,4 +1,3 @@
-import "styled-components";
 import { CSSProp } from "styled-components";
 
 interface Device {
@@ -15,6 +14,9 @@ interface Media {
 
 export interface Colors {
   main: string;
+  sub: string;
+  gray: string;
+  darkGray: string;
   plus: string;
   minus: string;
   inactive: string;

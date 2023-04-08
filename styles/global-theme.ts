@@ -53,7 +53,10 @@ Object.keys(device).reduce((acc: Media, label: string) => {
 }, media);
 
 export const colors: Colors = {
-  main: "#ff5c00",
+  main: "#6EE1FA",
+  sub: "#ff5c00",
+  gray: "#292929",
+  darkGray: "#131313",
   plus: "#ff0f00",
   minus: "#0075ff",
   inactive: "#b8bbbe",

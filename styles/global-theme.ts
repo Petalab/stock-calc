@@ -55,6 +55,7 @@ Object.keys(device).reduce((acc: Media, label: string) => {
 export const colors: Colors = {
   main: "#6EE1FA",
   sub: "#ff5c00",
+  footerGray: "#8E8E8E",
   gray: "#292929",
   darkGray: "#131313",
   plus: "#ff0f00",

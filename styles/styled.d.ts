@@ -15,6 +15,7 @@ interface Media {
 export interface Colors {
   main: string;
   sub: string;
+  footerGray: string;
   gray: string;
   darkGray: string;
   plus: string;

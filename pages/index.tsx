@@ -2,6 +2,7 @@ import Calculator from "components/home/Calculator";
 import MetaHead from "components/common/MetaHead";
 import styled from "styled-components";
 import Logo from "../components/common/Logo";
+import Footer from "../components/common/Footer";
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
           </h1>
         </AppTitleWrapper>
         <MainDescription>
-          물불 안가리고 타세요. 주식/코인 <Strong>평단가 계산기</Strong>입니다.
+          물불 안가리고 타세요. 워터독 주식/코인 <Strong>평단가 계산기</Strong>입니다.
           <br />
           보유하고 있는 주식/코인의 평단가, 수량을 입력하고 물타기/불타기를 해보세요.
           <br />
@@ -23,6 +24,7 @@ const Home = () => {
         </MainDescription>
         <Calculator />
       </main>
+      <Footer />
     </>
   );
 };
